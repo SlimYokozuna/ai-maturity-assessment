@@ -1,0 +1,934 @@
+{
+  "assessment": {
+    "title": "AI Maturity Self-Assessment Framework",
+    "subtitle": "Strategic Agentic AI Transformation Assessment",
+    "description": "This comprehensive assessment evaluates your organization's maturity in adopting agentic AI technologies focused on process automation and customer experience enhancement. Unlike traditional analytics or machine learning assessments, this framework specifically addresses autonomous AI agents that can take actions and make decisions.",
+    "duration": "15-20 minutes",
+    "totalQuestions": 30,
+    "domains": 6,
+    "maturityLevels": 5
+  },
+  "maturityLevels": [
+    {
+      "level": 1,
+      "name": "Tactical/Experimental",
+      "description": "Limited AI awareness, isolated pilot projects, no systematic approach",
+      "scoreRange": [0, 20],
+      "color": "#ef4444"
+    },
+    {
+      "level": 2,
+      "name": "Emerging Strategic",
+      "description": "Growing AI awareness, some coordination, beginning systematic approach",
+      "scoreRange": [21, 40],
+      "color": "#f97316"
+    },
+    {
+      "level": 3,
+      "name": "Strategic",
+      "description": "Systematic AI implementation, coordinated approach, measurable value",
+      "scoreRange": [41, 60],
+      "color": "#eab308"
+    },
+    {
+      "level": 4,
+      "name": "Becoming Transformational",
+      "description": "Advanced AI capabilities, enterprise-wide adoption, significant impact",
+      "scoreRange": [61, 80],
+      "color": "#22c55e"
+    },
+    {
+      "level": 5,
+      "name": "Transformational",
+      "description": "AI-driven innovation, industry leadership, continuous evolution",
+      "scoreRange": [81, 100],
+      "color": "#3b82f6"
+    }
+  ],
+  "domains": [
+    {
+      "id": "strategy",
+      "name": "Strategy",
+      "description": "Executive leadership, strategic vision, and value-driven AI transformation",
+      "icon": "target",
+      "questions": [
+        {
+          "id": "1.1",
+          "title": "C-Suite AI Sponsorship",
+          "question": "How visible and active is your executive leadership in championing AI initiatives?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Limited executive awareness of AI potential; no dedicated champion or visible leadership support for AI initiatives"
+            },
+            {
+              "level": 2,
+              "text": "Some executive interest in AI but inconsistent support; occasional executive mentions in communications but no dedicated resources"
+            },
+            {
+              "level": 3,
+              "text": "Clear executive champion identified; regular C-suite discussions about AI strategy with some dedicated budget allocation"
+            },
+            {
+              "level": 4,
+              "text": "CEO and multiple C-suite leaders actively promote AI; visible leadership participation in AI initiatives and regular organizational communication"
+            },
+            {
+              "level": 5,
+              "text": "Entire C-suite champions AI as core business strategy; AI leadership integrated into all major business decisions and strategic planning processes"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "AI Strategic Integration",
+          "question": "How well is AI integrated into your overall business strategy and long-term planning?",
+          "options": [
+            {
+              "level": 1,
+              "text": "AI considered as separate technology experiment; no integration with business strategy or planning cycles"
+            },
+            {
+              "level": 2,
+              "text": "AI mentioned in strategic documents but not integrated into core business planning; viewed as technology initiative rather than business strategy"
+            },
+            {
+              "level": 3,
+              "text": "AI strategy exists and aligns with business objectives; AI considerations included in annual planning and major business decisions"
+            },
+            {
+              "level": 4,
+              "text": "AI deeply embedded in business strategy; AI transformation roadmap aligns with overall business transformation goals"
+            },
+            {
+              "level": 5,
+              "text": "AI-first strategic mindset drives all business planning; competitive strategy built around AI capabilities and innovation"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Value-Driven Use Case Implementation",
+          "question": "How many high-impact, production-ready AI use cases has your organization successfully implemented?",
+          "options": [
+            {
+              "level": 1,
+              "text": "No production AI use cases; limited to pilot projects or proof-of-concepts without business impact measurement"
+            },
+            {
+              "level": 2,
+              "text": "1-2 pilot projects showing some promise; beginning to measure ROI but limited organizational impact"
+            },
+            {
+              "level": 3,
+              "text": "2-3 use cases successfully deployed in production with measurable business value and positive ROI"
+            },
+            {
+              "level": 4,
+              "text": "3-5 use cases scaled across multiple business functions with significant operational impact and revenue influence"
+            },
+            {
+              "level": 5,
+              "text": "5+ use cases driving enterprise transformation; AI capabilities directly influence business model and competitive positioning"
+            }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "AI Transformation Roadmap",
+          "question": "How comprehensive is your plan for scaling AI from pilots to enterprise-wide adoption?",
+          "options": [
+            {
+              "level": 1,
+              "text": "No formal roadmap; ad-hoc project approach without clear progression or scaling strategy"
+            },
+            {
+              "level": 2,
+              "text": "Basic roadmap exists for current pilots; limited visibility into enterprise-wide scaling approach"
+            },
+            {
+              "level": 3,
+              "text": "Comprehensive 2-3 year roadmap with clear phases, milestones, and resource allocation for AI scaling"
+            },
+            {
+              "level": 4,
+              "text": "Detailed transformation roadmap integrated with business strategy; clear path from current state to AI-driven organization"
+            },
+            {
+              "level": 5,
+              "text": "Dynamic roadmap continuously updated based on AI innovation; roadmap drives industry leadership and competitive advantage"
+            }
+          ]
+        },
+        {
+          "id": "1.5",
+          "title": "Innovation Culture and Experimentation",
+          "question": "How embedded is AI innovation and experimentation in your organizational culture?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Risk-averse culture with minimal AI experimentation; innovation limited to traditional approaches"
+            },
+            {
+              "level": 2,
+              "text": "Some tolerance for AI experimentation; occasional innovation initiatives but not systematic or culturally embedded"
+            },
+            {
+              "level": 3,
+              "text": "Culture encourages AI innovation; dedicated time and resources for experimentation with systematic learning processes"
+            },
+            {
+              "level": 4,
+              "text": "Innovation culture deeply embedded; employees actively seek AI solutions and experimentation is rewarded"
+            },
+            {
+              "level": 5,
+              "text": "AI-first innovation culture; continuous experimentation drives business evolution and industry leadership"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "description": "Infrastructure, platforms, and technical capabilities for agentic AI",
+      "icon": "cpu",
+      "questions": [
+        {
+          "id": "2.1",
+          "title": "AI Infrastructure Readiness",
+          "question": "How mature is your technical infrastructure to support scalable AI automation and deployment?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Limited technical infrastructure; reliance on manual processes with basic digital tools and siloed systems"
+            },
+            {
+              "level": 2,
+              "text": "Some cloud adoption and digital infrastructure; beginning to standardize platforms but limited integration"
+            },
+            {
+              "level": 3,
+              "text": "Robust cloud infrastructure with API-driven architecture; standardized platforms enabling AI integration and automation"
+            },
+            {
+              "level": 4,
+              "text": "Advanced cloud-native infrastructure designed for AI workloads; automated deployment capabilities and scalable architecture"
+            },
+            {
+              "level": 5,
+              "text": "Cutting-edge infrastructure optimized for AI innovation; self-managing systems with advanced automation and real-time adaptability"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Automation Platform Maturity",
+          "question": "What level of automation exists in your core business processes and where do these automation efforts reside organizationally?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Manual processes dominate; limited automation tools with no centralized coordination or strategy"
+            },
+            {
+              "level": 2,
+              "text": "Basic process automation in some areas; beginning to identify where automation efforts should be centralized"
+            },
+            {
+              "level": 3,
+              "text": "Systematic automation program with dedicated team or center; standardized approach to process automation across functions"
+            },
+            {
+              "level": 4,
+              "text": "Advanced automation platform with AI integration; centralized automation center driving enterprise-wide efficiency"
+            },
+            {
+              "level": 5,
+              "text": "Intelligent automation ecosystem with agentic AI; self-optimizing processes and autonomous decision-making capabilities"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Platform Flexibility and Integration",
+          "question": "How flexible and vendor-agnostic is your technology platform for AI implementation?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Heavily dependent on single vendor ecosystem; limited flexibility for AI tool integration"
+            },
+            {
+              "level": 2,
+              "text": "Some platform diversity but still constrained by vendor dependencies; beginning to evaluate integration options"
+            },
+            {
+              "level": 3,
+              "text": "Multi-vendor approach with API-driven integration; flexibility to adopt best-of-breed AI solutions"
+            },
+            {
+              "level": 4,
+              "text": "Open, flexible platform architecture; seamless integration of diverse AI tools and services"
+            },
+            {
+              "level": 5,
+              "text": "Fully agnostic platform ecosystem; dynamic integration capabilities that adapt to emerging AI technologies"
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Data Quality and Accessibility",
+          "question": "How accessible and high-quality is your data for supporting AI applications across the organization?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Poor data quality with difficult access; siloed data systems limiting AI potential"
+            },
+            {
+              "level": 2,
+              "text": "Improving data quality initiatives; some data integration but still significant barriers to AI applications"
+            },
+            {
+              "level": 3,
+              "text": "Good data quality with established governance; accessible data architecture supporting most AI use cases"
+            },
+            {
+              "level": 4,
+              "text": "High-quality, real-time data ecosystem; seamless data access enabling advanced AI applications"
+            },
+            {
+              "level": 5,
+              "text": "Exceptional data quality with intelligent data management; self-healing data systems optimized for AI innovation"
+            }
+          ]
+        },
+        {
+          "id": "2.5",
+          "title": "AI Development and Deployment Capabilities",
+          "question": "How advanced are your capabilities for developing, testing, and deploying AI solutions?",
+          "options": [
+            {
+              "level": 1,
+              "text": "No formal AI development capabilities; reliance on external vendors for any AI implementation"
+            },
+            {
+              "level": 2,
+              "text": "Basic AI development skills; limited internal capabilities with heavy vendor dependence for complex solutions"
+            },
+            {
+              "level": 3,
+              "text": "Established AI development team; standardized processes for building and deploying AI solutions"
+            },
+            {
+              "level": 4,
+              "text": "Advanced AI development capabilities; automated testing and deployment with continuous integration"
+            },
+            {
+              "level": 5,
+              "text": "World-class AI development ecosystem; rapid prototyping, automated optimization, and intelligent deployment systems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "name": "Governance",
+      "description": "Risk management, ethics, compliance, and AI oversight",
+      "icon": "shield",
+      "questions": [
+        {
+          "id": "3.1",
+          "title": "Comprehensive AI Risk Management",
+          "question": "How effectively does your organization manage AI risks across performance, security, control, economic, societal, and enterprise categories?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Limited awareness of AI-specific risks; no formal risk assessment or mitigation strategies for AI implementations"
+            },
+            {
+              "level": 2,
+              "text": "Basic understanding of AI risks; ad-hoc risk assessment for individual projects without comprehensive framework"
+            },
+            {
+              "level": 3,
+              "text": "Formal AI risk framework addressing key categories; systematic risk assessment and mitigation for AI initiatives"
+            },
+            {
+              "level": 4,
+              "text": "Comprehensive AI risk management covering all risk categories; continuous monitoring and adaptive risk strategies"
+            },
+            {
+              "level": 5,
+              "text": "Advanced AI risk intelligence; predictive risk management with automated monitoring and dynamic mitigation strategies"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "AI Governance Structure and Oversight",
+          "question": "What governance structures exist for AI decision-making, oversight, and accountability throughout the AI lifecycle?",
+          "options": [
+            {
+              "level": 1,
+              "text": "No formal AI governance structure; decisions made ad-hoc without clear accountability or oversight"
+            },
+            {
+              "level": 2,
+              "text": "Basic governance for individual AI projects; some oversight but limited organizational structure"
+            },
+            {
+              "level": 3,
+              "text": "Formal AI governance committee with clear roles; systematic oversight for AI initiatives and decision-making processes"
+            },
+            {
+              "level": 4,
+              "text": "Mature AI governance integrated with enterprise governance; clear accountability and comprehensive lifecycle management"
+            },
+            {
+              "level": 5,
+              "text": "Advanced AI governance ecosystem; autonomous governance capabilities with intelligent oversight and dynamic policy adaptation"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Responsible AI and Ethics Framework",
+          "question": "How embedded are ethics, fairness, and transparency considerations in your AI development and deployment processes?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Ethics considered as afterthought; no formal guidelines or systematic approach to responsible AI"
+            },
+            {
+              "level": 2,
+              "text": "Basic ethical guidelines exist; limited implementation and monitoring of responsible AI practices"
+            },
+            {
+              "level": 3,
+              "text": "Comprehensive responsible AI framework; systematic implementation of ethical guidelines and bias testing"
+            },
+            {
+              "level": 4,
+              "text": "Advanced responsible AI practices integrated throughout AI lifecycle; continuous monitoring and improvement"
+            },
+            {
+              "level": 5,
+              "text": "Industry-leading responsible AI framework; innovative approaches to AI ethics and transparency driving industry standards"
+            }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Regulatory Compliance and Preparedness",
+          "question": "How prepared is your organization for current and emerging AI regulatory requirements?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Limited awareness of AI regulatory landscape; no specific compliance preparation for AI implementations"
+            },
+            {
+              "level": 2,
+              "text": "Basic awareness of AI regulations; beginning to assess compliance requirements for current AI initiatives"
+            },
+            {
+              "level": 3,
+              "text": "Proactive compliance approach; systematic preparation for known AI regulations and compliance monitoring"
+            },
+            {
+              "level": 4,
+              "text": "Advanced regulatory preparedness; anticipating future regulations and building adaptive compliance capabilities"
+            },
+            {
+              "level": 5,
+              "text": "Regulatory leadership position; contributing to regulatory development and setting industry compliance standards"
+            }
+          ]
+        },
+        {
+          "id": "3.5",
+          "title": "Enterprise Governance Integration",
+          "question": "How well integrated is AI governance with your existing enterprise governance, compliance, and audit functions?",
+          "options": [
+            {
+              "level": 1,
+              "text": "AI governance operates separately from enterprise governance; limited integration with existing oversight functions"
+            },
+            {
+              "level": 2,
+              "text": "Some coordination with enterprise governance; basic integration with existing compliance and audit processes"
+            },
+            {
+              "level": 3,
+              "text": "AI governance well-integrated with enterprise governance; systematic coordination with compliance, audit, and risk functions"
+            },
+            {
+              "level": 4,
+              "text": "Seamless integration of AI governance with all enterprise oversight functions; unified governance approach"
+            },
+            {
+              "level": 5,
+              "text": "AI governance enhances overall enterprise governance; intelligent governance systems improving all oversight functions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "name": "People",
+      "description": "Skills, culture, change management, and organizational readiness",
+      "icon": "users",
+      "questions": [
+        {
+          "id": "4.1",
+          "title": "AI Literacy and Skills Development",
+          "question": "What is the current level of AI understanding and skills across your organization?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Limited AI knowledge across organization; few employees understand AI potential or applications"
+            },
+            {
+              "level": 2,
+              "text": "Basic AI awareness in some areas; beginning to identify skill gaps and training needs"
+            },
+            {
+              "level": 3,
+              "text": "Systematic AI literacy program; role-specific training and growing AI competency across organization"
+            },
+            {
+              "level": 4,
+              "text": "High AI literacy levels; specialized expertise in key roles and widespread understanding of AI applications"
+            },
+            {
+              "level": 5,
+              "text": "Organization-wide AI fluency; employees actively innovate with AI and drive continuous learning and development"
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Change Management for AI Transformation",
+          "question": "How effectively does your organization manage the human side of AI-driven change?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Limited change management for AI initiatives; resistance to AI adoption and minimal employee engagement"
+            },
+            {
+              "level": 2,
+              "text": "Basic change management for AI projects; some employee communication but limited systematic approach"
+            },
+            {
+              "level": 3,
+              "text": "Comprehensive change management strategy; systematic employee engagement and support for AI transformation"
+            },
+            {
+              "level": 4,
+              "text": "Excellent change management capabilities; high employee adoption rates and proactive change leadership"
+            },
+            {
+              "level": 5,
+              "text": "Change management excellence; employees drive AI transformation and continuously adapt to AI innovation"
+            }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "AI-Augmented Workforce Strategy",
+          "question": "How effectively is your organization enhancing human capabilities with AI rather than simply replacing workers?",
+          "options": [
+            {
+              "level": 1,
+              "text": "AI viewed primarily as replacement technology; limited consideration of human-AI collaboration"
+            },
+            {
+              "level": 2,
+              "text": "Some recognition of AI augmentation potential; beginning to explore human-AI collaboration models"
+            },
+            {
+              "level": 3,
+              "text": "Clear AI augmentation strategy; systematic approach to enhancing human capabilities with AI technologies"
+            },
+            {
+              "level": 4,
+              "text": "Advanced human-AI collaboration; employees effectively work with AI to enhance productivity and innovation"
+            },
+            {
+              "level": 5,
+              "text": "Seamless human-AI integration; AI amplifies human potential and creates new categories of work and value"
+            }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Innovation Culture and Continuous Learning",
+          "question": "How embedded is a culture of continuous learning and innovation related to AI in your organization?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Traditional learning culture; limited innovation initiatives and resistance to new AI approaches"
+            },
+            {
+              "level": 2,
+              "text": "Some innovation programs; beginning to encourage AI experimentation and learning initiatives"
+            },
+            {
+              "level": 3,
+              "text": "Innovation culture developing; systematic support for AI learning and experimentation across organization"
+            },
+            {
+              "level": 4,
+              "text": "Strong innovation culture; employees actively pursue AI learning and drive innovation initiatives"
+            },
+            {
+              "level": 5,
+              "text": "Innovation excellence; continuous learning and AI innovation drive organizational evolution and competitive advantage"
+            }
+          ]
+        },
+        {
+          "id": "4.5",
+          "title": "AI Talent and Leadership Development",
+          "question": "How effectively can your organization attract, develop, and retain AI talent and leadership?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Difficulty attracting AI talent; limited understanding of AI leadership requirements"
+            },
+            {
+              "level": 2,
+              "text": "Some success in AI talent acquisition; beginning to develop AI leadership capabilities"
+            },
+            {
+              "level": 3,
+              "text": "Effective AI talent strategy; developing internal AI expertise and leadership capabilities"
+            },
+            {
+              "level": 4,
+              "text": "Strong AI talent pipeline; excellent retention and development of AI leaders across organization"
+            },
+            {
+              "level": 5,
+              "text": "AI talent excellence; organization attracts top AI talent and develops industry-leading AI leaders"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customer",
+      "name": "Customer",
+      "description": "Customer experience enhancement, personalization, and value creation through agentic AI",
+      "icon": "heart",
+      "questions": [
+        {
+          "id": "5.1",
+          "title": "AI-Enhanced Customer Experience Across Channels",
+          "question": "How extensively does agentic AI enhance customer experiences across all your interaction channels?",
+          "options": [
+            {
+              "level": 1,
+              "text": "No AI-enhanced customer interactions; traditional customer service and experience approaches"
+            },
+            {
+              "level": 2,
+              "text": "Basic AI applications in some customer touchpoints; limited integration across channels"
+            },
+            {
+              "level": 3,
+              "text": "AI consistently enhances customer experience; systematic implementation across multiple channels with measurable improvements"
+            },
+            {
+              "level": 4,
+              "text": "Advanced AI-driven customer experience; seamless integration across all channels with personalized interactions"
+            },
+            {
+              "level": 5,
+              "text": "AI transforms customer experience; autonomous AI agents provide exceptional, continuously improving customer interactions"
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Dynamic Personalization and Tailored Solutions",
+          "question": "How effectively does your organization use AI to create personalized, tailored solutions for customers?",
+          "options": [
+            {
+              "level": 1,
+              "text": "No personalization capabilities; one-size-fits-all approach to products and services"
+            },
+            {
+              "level": 2,
+              "text": "Basic segmentation with some customization; limited use of data for personalization"
+            },
+            {
+              "level": 3,
+              "text": "Systematic personalization using AI; targeted offerings based on customer segments and behavior patterns"
+            },
+            {
+              "level": 4,
+              "text": "Advanced personalization with micro-segmentation; AI-driven customization of products, pricing, and experiences"
+            },
+            {
+              "level": 5,
+              "text": "'Segments of one' personalization; AI creates unique, individual experiences and solutions for each customer in real-time"
+            }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "Customer Insights and Predictive Capabilities",
+          "question": "How effectively do you use AI to generate actionable customer insights and predict customer needs?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Basic customer analytics without AI; limited insight generation and reactive customer management"
+            },
+            {
+              "level": 2,
+              "text": "Some AI-enhanced analytics; beginning to generate insights but limited predictive capabilities"
+            },
+            {
+              "level": 3,
+              "text": "AI-powered customer insights; predictive analytics driving proactive customer engagement and service improvements"
+            },
+            {
+              "level": 4,
+              "text": "Advanced predictive customer intelligence; AI anticipates customer needs and drives strategic decisions"
+            },
+            {
+              "level": 5,
+              "text": "Predictive customer excellence; AI generates deep insights that transform customer strategy and drive innovation"
+            }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": "Customer Satisfaction and Loyalty Impact",
+          "question": "What measurable improvements in customer satisfaction and loyalty have you achieved through AI implementations?",
+          "options": [
+            {
+              "level": 1,
+              "text": "No measurable AI impact on customer satisfaction; traditional customer metrics without AI attribution"
+            },
+            {
+              "level": 2,
+              "text": "Some improvement in customer metrics; beginning to measure AI impact on customer satisfaction"
+            },
+            {
+              "level": 3,
+              "text": "Clear improvements in customer satisfaction; systematic measurement of AI impact with positive trending metrics"
+            },
+            {
+              "level": 4,
+              "text": "Significant customer satisfaction gains; strong improvement in loyalty metrics and customer lifetime value"
+            },
+            {
+              "level": 5,
+              "text": "Exceptional customer satisfaction results; industry-leading loyalty metrics and customer advocacy driven by AI"
+            }
+          ]
+        },
+        {
+          "id": "5.5",
+          "title": "Revenue Impact and Business Model Innovation",
+          "question": "How significantly does AI influence your revenue generation and enable new business model innovations?",
+          "options": [
+            {
+              "level": 1,
+              "text": "No AI-influenced revenue; traditional business model without AI-enabled innovations"
+            },
+            {
+              "level": 2,
+              "text": "Limited AI impact on revenue; exploring potential for AI-enabled service offerings"
+            },
+            {
+              "level": 3,
+              "text": "Measurable AI-influenced revenue; some new offerings or efficiency gains contributing to financial performance"
+            },
+            {
+              "level": 4,
+              "text": "Significant AI-driven revenue growth; new business models and offerings generating substantial value"
+            },
+            {
+              "level": 5,
+              "text": "AI transforms business model; majority of revenue influenced by AI capabilities and continuous innovation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organization",
+      "name": "Organization",
+      "description": "AI Center of Excellence development, process evolution, and delivery structure",
+      "icon": "building",
+      "questions": [
+        {
+          "id": "6.1",
+          "title": "AI Center of Excellence Development",
+          "question": "How has your organization evolved process improvement capabilities to include agentic AI, and what dedicated AI delivery structure exists?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Traditional process improvement only; no dedicated AI organization or enhanced capabilities"
+            },
+            {
+              "level": 2,
+              "text": "Planning or building AI-enhanced process capabilities; beginning to design dedicated AI delivery structure"
+            },
+            {
+              "level": 3,
+              "text": "AI Center of Excellence established; formal structure with dedicated team focused on AI delivery and process automation"
+            },
+            {
+              "level": 4,
+              "text": "Mature AI CoE delivering measurable results; integrated process automation and AI capabilities across organization"
+            },
+            {
+              "level": 5,
+              "text": "Advanced AI CoE driving enterprise transformation; center of excellence leads industry innovation and organizational evolution"
+            }
+          ]
+        },
+        {
+          "id": "6.2",
+          "title": "Process Automation Breadth and Impact",
+          "question": "How extensively has your organization implemented AI-driven automation across core and non-core business functions?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Limited automation; manual processes dominate with minimal AI integration across functions"
+            },
+            {
+              "level": 2,
+              "text": "Some process automation in specific areas; beginning to identify opportunities across core and non-core functions"
+            },
+            {
+              "level": 3,
+              "text": "Systematic automation across multiple functions; AI-driven process improvements in both core and support functions"
+            },
+            {
+              "level": 4,
+              "text": "Extensive automation across organization; significant efficiency gains and process transformation through AI"
+            },
+            {
+              "level": 5,
+              "text": "Comprehensive AI-driven automation; intelligent processes that continuously optimize and adapt across all functions"
+            }
+          ]
+        },
+        {
+          "id": "6.3",
+          "title": "Cross-Functional AI Adoption and Integration",
+          "question": "How effectively does your AI organization coordinate and drive adoption across different business functions?",
+          "options": [
+            {
+              "level": 1,
+              "text": "No cross-functional AI coordination; isolated efforts with limited organizational integration"
+            },
+            {
+              "level": 2,
+              "text": "Basic coordination between functions; beginning to standardize AI approaches across organization"
+            },
+            {
+              "level": 3,
+              "text": "Systematic cross-functional AI implementation; coordinated approach with consistent standards and practices"
+            },
+            {
+              "level": 4,
+              "text": "Seamless AI integration across functions; organization-wide adoption with unified AI strategy and execution"
+            },
+            {
+              "level": 5,
+              "text": "AI integration excellence; all functions leverage AI capabilities and drive continuous organizational innovation"
+            }
+          ]
+        },
+        {
+          "id": "6.4",
+          "title": "AI Delivery Capability and Expertise",
+          "question": "What level of internal capability exists for designing, implementing, and managing AI solutions?",
+          "options": [
+            {
+              "level": 1,
+              "text": "Limited internal AI capability; heavy reliance on external vendors for any AI implementation"
+            },
+            {
+              "level": 2,
+              "text": "Basic internal AI capabilities; some expertise but still dependent on external support for complex solutions"
+            },
+            {
+              "level": 3,
+              "text": "Established internal AI expertise; capable of designing and implementing most AI solutions with selective external support"
+            },
+            {
+              "level": 4,
+              "text": "Advanced internal AI capabilities; comprehensive expertise enabling complex AI implementations and innovation"
+            },
+            {
+              "level": 5,
+              "text": "World-class AI delivery capabilities; internal expertise drives innovation and industry leadership in AI applications"
+            }
+          ]
+        },
+        {
+          "id": "6.5",
+          "title": "Organizational Impact and Value Delivery",
+          "question": "How effectively does your AI organization deliver measurable business value and drive organizational transformation?",
+          "options": [
+            {
+              "level": 1,
+              "text": "No measurable AI business impact; limited value delivery and organizational influence"
+            },
+            {
+              "level": 2,
+              "text": "Some business value from AI initiatives; beginning to measure and communicate AI impact across organization"
+            },
+            {
+              "level": 3,
+              "text": "Clear business value delivery; systematic measurement and communication of AI benefits and organizational improvements"
+            },
+            {
+              "level": 4,
+              "text": "Significant organizational impact; AI delivery drives major business improvements and competitive advantages"
+            },
+            {
+              "level": 5,
+              "text": "Transformational organizational impact; AI capabilities fundamentally change how the organization operates and competes"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "levels1-2": [
+      "Secure visible C-suite sponsorship and championship",
+      "Establish AI steering committee with cross-functional representation",
+      "Identify 3-5 high-impact use cases for initial value demonstration",
+      "Begin systematic AI literacy and training programs",
+      "Start designing AI Center of Excellence structure",
+      "Establish initial responsible AI guidelines and governance framework"
+    ],
+    "level3": [
+      "Scale successful pilots to enterprise-wide implementations",
+      "Formalize AI Center of Excellence with dedicated resources",
+      "Implement comprehensive governance framework with integrated oversight",
+      "Expand AI training programs across organization",
+      "Establish systematic measurement of AI business impact",
+      "Build internal AI development and deployment capabilities"
+    ],
+    "levels4-5": [
+      "Foster AI-first organizational culture and decision-making",
+      "Explore advanced agentic AI capabilities and business model innovations",
+      "Establish industry leadership position through AI differentiation",
+      "Drive continuous learning and adaptation to emerging AI technologies",
+      "Contribute to industry standards and regulatory development",
+      "Build ecosystem partnerships for AI innovation and scaling"
+    ]
+  }
+}
